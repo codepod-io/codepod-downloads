@@ -1,0 +1,33 @@
+{
+  "tag": "v0.1.12",
+  "version": "0.1.12",
+  "publishedAt": "2026-11-20T21:10:41Z",
+  "macNotarized": false,
+  "assets": {
+    "aarch64-apple-darwin": {
+      "url": "https://github.com/codepod-io/codepod-downloads/releases/download/v0.1.12/CodePod-0.1.12-aarch64-apple-darwin.dmg",
+      "size": 49235525,
+      "sha256": "40b4d6a6b851b9fcfc0164ffbcfd7157d69957804fdc53953b24e3835d30a740"
+    },
+    "x86_64-apple-darwin": {
+      "url": "https://github.com/codepod-io/codepod-downloads/releases/download/v0.1.12/CodePod-0.1.12-x86_64-apple-darwin.dmg",
+      "size": 51922900,
+      "sha256": "a749e85d0724dbcfec36a6b22d8eef3b728eb78ff247ed5cf189cf59ba53f094"
+    },
+    "universal-apple-darwin": {
+      "url": "https://github.com/codepod-io/codepod-downloads/releases/download/v0.1.12/CodePod-0.1.12-universal-apple-darwin.dmg",
+      "size": 97197167,
+      "sha256": "ed32a8d06d3c8ca87e546830daff9c5486fb9b30ca12a6d117f788b9d3dbe8ee"
+    },
+    "x86_64-unknown-linux-gnu": {
+      "url": "https://github.com/codepod-io/codepod-downloads/releases/download/v0.1.12/CodePod-0.1.12-x86_64-unknown-linux-gnu.tar.gz",
+      "size": 48622105,
+      "sha256": "f3674be87f2bb28ecc1fb9260862a51379f47acd5d755258ce6c3f8ef549fdab"
+    },
+    "aarch64-unknown-linux-gnu": {
+      "url": "https://github.com/codepod-io/codepod-downloads/releases/download/v0.1.12/CodePod-0.1.12-aarch64-unknown-linux-gnu.tar.gz",
+      "size": 48304170,
+      "sha256": "098d8d1b32ca21cc2047fceb91b2b141dfec79a0051d7bba4c1970237ae8808c"
+    }
+  }
+}
