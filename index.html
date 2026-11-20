@@ -1,48 +1,79 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Download CodePod, a local workspace for organizing Markdown notes and projects in a visual map.">
-  <title>Download CodePod</title>
-  <link rel="icon" href="logo.png">
-  <link rel="stylesheet" href="style.css">
-  <script src="downloads.js" defer></script>
-</head>
-<body>
-  <header class="masthead">
-    <a class="brand" href="./"><img src="logo.png" alt="" width="36" height="36"> CodePod</a>
-    <a href="https://github.com/codepod-io/codepod-downloads/releases">Release archive</a>
-  </header>
-  <main>
-    <section class="intro" aria-labelledby="title">
-      <img class="app-icon" src="logo.png" alt="" width="104" height="104">
-      <div>
-        <h1 id="title">Download CodePod</h1>
-        <p>Organize Markdown notes and projects in a visual map on your computer.</p>
-      </div>
-    </section>
-    <section class="downloads" aria-labelledby="downloads-title">
-      <div class="downloads-header">
-        <h2 id="downloads-title">Latest stable release</h2>
-        <p id="release-status" role="status">Loading downloads…</p>
-      </div>
-      <div class="platforms" id="platforms" hidden>
-        <section class="platform" aria-labelledby="macos-title">
-          <h3 id="macos-title">macOS</h3>
-          <p>Open the disk image and drag CodePod into Applications.</p>
-          <ul id="macos-downloads"></ul>
-        </section>
-        <section class="platform" aria-labelledby="linux-title">
-          <h3 id="linux-title">Linux</h3>
-          <p>Extract the archive and run <code>./bin/codepod</code> from the extracted folder.</p>
-          <ul id="linux-downloads"></ul>
-        </section>
-      </div>
-      <p id="mac-signing" class="install-note" hidden>These macOS builds are ad-hoc signed. macOS may block the app on first launch. <a href="https://support.apple.com/en-us/102445">See Apple’s guidance</a>.</p>
-      <p id="download-fallback" hidden>Get the installers from the <a href="https://github.com/codepod-io/codepod-downloads/releases">release archive</a>.</p>
-      <noscript><p>Get the installers from the <a href="https://github.com/codepod-io/codepod-downloads/releases">release archive</a>.</p></noscript>
-    </section>
-  </main>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Download CodePod, a local workspace for organizing Markdown notes and projects in a visual map."
+    />
+    <title>Download CodePod</title>
+    <link rel="icon" href="logo.png" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="downloads.js" defer></script>
+  </head>
+  <body>
+    <header class="masthead">
+      <a class="brand" href="./"
+        ><img src="logo.png" alt="" width="36" height="36" /> CodePod</a
+      >
+      <a href="https://github.com/codepod-io/codepod-downloads/releases"
+        >Release archive</a
+      >
+    </header>
+    <main>
+      <section class="intro" aria-labelledby="title">
+        <img class="app-icon" src="logo.png" alt="" width="104" height="104" />
+        <div>
+          <h1 id="title">Download CodePod</h1>
+          <p>
+            Organize Markdown notes and projects in a visual map on your
+            computer.
+          </p>
+        </div>
+      </section>
+      <section class="downloads" aria-labelledby="downloads-title">
+        <div class="downloads-header">
+          <h2 id="downloads-title">Latest stable release</h2>
+          <p id="release-status" role="status">Loading downloads…</p>
+        </div>
+        <div class="platforms" id="platforms" hidden>
+          <section class="platform" aria-labelledby="macos-title">
+            <h3 id="macos-title">macOS</h3>
+            <p>Open the disk image and drag CodePod into Applications.</p>
+            <ul id="macos-downloads"></ul>
+          </section>
+          <section class="platform" aria-labelledby="linux-title">
+            <h3 id="linux-title">Linux</h3>
+            <p>
+              Extract the archive and run <code>./bin/codepod</code> from the
+              extracted folder.
+            </p>
+            <ul id="linux-downloads"></ul>
+          </section>
+        </div>
+        <p id="mac-signing" class="install-note" hidden>
+          These macOS builds are ad-hoc signed. macOS may block the app on first
+          launch.
+          <a href="https://support.apple.com/en-us/102445"
+            >See Apple’s guidance</a
+          >.
+        </p>
+        <p id="download-fallback" hidden>
+          Get the installers from the
+          <a href="https://github.com/codepod-io/codepod-downloads/releases"
+            >release archive</a
+          >.
+        </p>
+        <noscript
+          ><p>
+            Get the installers from the
+            <a href="https://github.com/codepod-io/codepod-downloads/releases"
+              >release archive</a
+            >.
+          </p></noscript
+        >
+      </section>
+    </main>
+  </body>
 </html>
